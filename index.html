@@ -4,8 +4,8 @@
 	<meta charset="utf-8" />
 	<title>JSON | COMP1073 Client-Side JavaScript</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link href="css/normalize.css" rel="stylesheet" />
-	<link href="css/styles.css" rel="stylesheet" />
+	<link href="normalize.css" rel="stylesheet" />
+	<link href="styles.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -52,23 +52,34 @@
             header.appendChild(headerPara);
         }
 		/* STEP 10a: Assemble the showTopFlavors() function */
+        function showTopFlavors(jsonObj){
 
 			// STEP 10b: Bind the JSON topFlavors object to a var
-
+            const topFlavors = jsonObj['topFlavors'];
 			// STEP 10c: Loop through the topFlavors array
+            for(let i=0; i<topFlavors.length; i++){
 
 				// STEP 10d: build HTML elements for the content
-
+                const article = document.createElement('article');
+                const h2 = document.createElement('h2');
+                const img = document.createElement('img');
+                const p1 = document.createElement('p');
+                const p2 = document.createElement('p');
+                const list = document.createElement('ul');
 				// STEP 10e: Set the textContent property for each of the above elements (except the UL), based on the JSON content
-
+                img.setAttribute('src','https://raw.githubusercontent.com/IgnacioV7s/JS-JSON/images/' + topFlavors[i].image);
+                img.setAttribute('alt', topFlavors[i].name);
+                h2.textContent = topFlavors[i].name;
+                
 				// STEP 10f: Build a loop for the ingredients array in the JSON
 
 				// STEP 10g: Append each of the above HTML elements to the ARTICLE element
 
 				// STEP 10h: Append each complete ARTICLE element to the SECTION element
 
-
-		// This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+            }
+		}
+        // This page inspired by and adapted from https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 
 		// A special thanks to https://openclipart.org/detail/285225/ice-cream-cones for the awesome ice cream cone illustrations
 		</script>
