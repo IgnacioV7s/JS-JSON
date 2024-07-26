@@ -38,7 +38,7 @@
       "image": "strawberry-sprinkle.svg"
     },
     {
-      "name": "Stupendous Strawberry",
+      "name": "Ice Cream 4",
       "calories": 425,
       "type": "frozen yogurt",
       "ingredients": [
@@ -49,7 +49,7 @@
       "image": "ice-cream-xtra1.svg"
     },
     {
-      "name": "Stupendous Strawberry",
+      "name": "Ice Cream 5",
       "calories": 425,
       "type": "frozen yogurt",
       "ingredients": [
@@ -57,7 +57,7 @@
         "milk chocolate dip",
         "candy sprinkles"
       ],
-      "image": "ice-cream-xtra1.svg"
+      "image": "ice-cream-xtra2.svg"
     }
   ]
 }
