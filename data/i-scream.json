@@ -1,5 +1,5 @@
 {
-  "companyName": "Ignacio Company.",
+  "companyName": "I Scream Inc.",
   "headOffice": "South Pole, Antarctica",
   "established": 2001,
   "active": true,
@@ -36,6 +36,28 @@
         "candy sprinkles"
       ],
       "image": "strawberry-sprinkle.svg"
+    },
+    {
+      "name": "Stupendous Strawberry",
+      "calories": 425,
+      "type": "frozen yogurt",
+      "ingredients": [
+        "wild strawberries",
+        "milk chocolate dip",
+        "candy sprinkles"
+      ],
+      "image": "ice-cream-xtra1.svg"
+    },
+    {
+      "name": "Stupendous Strawberry",
+      "calories": 425,
+      "type": "frozen yogurt",
+      "ingredients": [
+        "wild strawberries",
+        "milk chocolate dip",
+        "candy sprinkles"
+      ],
+      "image": "ice-cream-xtra1.svg"
     }
   ]
 }
